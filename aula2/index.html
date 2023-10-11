@@ -72,79 +72,81 @@
                 <li>Manjericão</li>
             </ul>
         </section>
-        <section id="cardapio"></section>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th></th>
-                    <th>Segunda</th>
-                    <th>Terça</th>
-                    <th>Quarta</th>
-                    <th>Quinta</th>
-                    <th>Sexta</th>
-                    <th>Sabado</th>
-                    <th>Domingo</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Café da manhã</td>
-                    <td>Aveia com frutas e Iogurte</td>
-                    <td>Ovos mexidos com espinafre e tomate</td>
-                    <td>Panquecas de aveia com mel e frutas</td>
-                    <td>Smoothie com banana, morango e Iogurte</td>
-                    <td>Omelete com queijo e tomate</td>
-                    <td colspan="2">Panquecas de aveia com mel e frutas</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Almoço</td>
-                    <td>Salada de quinoa com legumes e tofu grelhado.</td>
-                    <td>Wrap de frango com legumes grelhados.</td>
-                    <td>Salada de macarrão com legumes e molho de tomate.</td>
-                    <td>Sanduíche de frango grelhado</td>
-                    <td>Salada de macarrão com vegetais</td>
-                    <td>Wrap de frango com legumes grelhados.</td>
-                    <td>Salada de quinoa com legumes e tofu grelhado.</td>
-                </tr>
-                <tr>
-                    <td>Shawarma de frango grelhado</td>
-                    <td>Salada de macarrão com legumes e molho de tomate.</td>
-                    <td>Tofu com legumes e arroz.</td>
-                    <td>Comida Japonesa</td>
-                    <td>Frango grelhado com legumes.</td>
-                    <td>Salada de quinoa com legumes.</td>
-                    <td>Frango grelhado com arroz integral e brócolis.</td>
-                </tr>
-                <tr>
-                    <td>Lanche da tarde</td>
-                    <td>Frutas frescas</td>
-                    <td>Iogurte com granola</td>
-                    <td>Sanduíche com queijo e cenoura</td>
-                    <td>Omelete com queijo e tomate</td>
-                    <td>Bolo de chocolate</td>
-                    <td colspan="2">Smoothie com banana, morango e Iogurte</td>
-                </tr>
-                <tr>
-                    <td rowspan="2">Janta</td>
-                    <td>Pizza caseira.</td>
-                    <td>Frango ao curry com arroz</td>
-                    <td>Tofu mexido com legumes</td>
-                    <td>Pizza caseira</td>
-                    <td>Espaguete com molho de tomate e almôndegas vegetarianas.</td>
-                    <td>Tofu mexido com legumes</td>
-                    <td>Salada de quinoa com legumes e tofu grelhado.</td>
-                </tr>
-                <tr>
-                    <td>Salada de atum</td>
-                    <td>Espaguete de abobrinha com molho de tomate</td>
-                    <td>Peixe ao molho de limão e quinoa</td>
-                    <td>Salada de atum</td>
-                    <td>Peixe assado com batatas e aspargos</td>
-                    <td> Espaguete com molho de tomate e almôndegas</td>
-                    <td>Frango grelhado com arroz integral e brócolis.</td>
-                </tr>
-            </tbody>
-        </table>
+        <section id="cardapio">
+            <h2>Cardápio Semanal</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th id="celulaVazia"></th>
+                        <th>Segunda</th>
+                        <th>Terça</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sabado</th>
+                        <th>Domingo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="tituloLateral">Café da manhã</td>
+                        <td>Aveia com frutas e Iogurte</td>
+                        <td>Ovos mexidos com espinafre e tomate</td>
+                        <td>Panquecas de aveia com mel e frutas</td>
+                        <td>Smoothie com banana, morango e Iogurte</td>
+                        <td>Omelete com queijo e tomate</td>
+                        <td colspan="2">Panquecas de aveia com mel e frutas</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="tituloLateral">Almoço</td>
+                        <td class="pai">Salada de quinoa com legumes e tofu grelhado.</td>
+                        <td>Wrap de frango com legumes grelhados.</td>
+                        <td class="mae">Salada de macarrão com legumes e molho de tomate.</td>
+                        <td>Sanduíche de frango grelhado</td>
+                        <td class="pai">Salada de macarrão com vegetais</td>
+                        <td>Wrap de frango com legumes grelhados.</td>
+                        <td class="pai">Salada de quinoa com legumes e tofu grelhado.</td>
+                    </tr>
+                    <tr>
+                        <td>Shawarma de frango grelhado</td>
+                        <td class="pai">Salada de macarrão com legumes e molho de tomate.</td>
+                        <td>Comida Japonesa</td>
+                        <td class="pai">Tofu com legumes e arroz.</td>
+                        <td>Frango grelhado com legumes.</td>
+                        <td class="pai">Salada de quinoa com legumes.</td>
+                        <td>Frango grelhado com arroz integral e brócolis.</td>
+                    </tr>
+                    <tr>
+                        <td class="tituloLateral">Lanche da tarde</td>
+                        <td>Frutas frescas</td>
+                        <td>Iogurte com granola</td>
+                        <td>Sanduíche com queijo e cenoura</td>
+                        <td>Omelete com queijo e tomate</td>
+                        <td>Bolo de chocolate</td>
+                        <td colspan="2">Smoothie com banana, morango e Iogurte</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="tituloLateral">Janta</td>
+                        <td>Pizza caseira.</td>
+                        <td>Frango ao curry com arroz</td>
+                        <td class="mae">Tofu mexido com legumes</td>
+                        <td class="mae">Pizza caseira</td>
+                        <td class="mae">Espaguete com molho de tomate e almôndegas vegetarianas.</td>
+                        <td class="pai">Tofu mexido com legumes</td>
+                        <td class="pai">Salada de quinoa com legumes e tofu grelhado.</td>
+                    </tr>
+                    <tr>
+                        <td class="pai">Tofu mexido com legumes</td>
+                        <td class="pai">Espaguete de abobrinha com molho de tomate</td>
+                        <td>Peixe ao molho de limão e quinoa</td>
+                        <td>Salada de atum</td>
+                        <td>Peixe assado com batatas e aspargos</td>
+                        <td> Espaguete com molho de tomate e almôndegas</td>
+                        <td>Frango grelhado com arroz integral e brócolis.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <section id="atividades">
             <h2>Tarefas</h2>
             <ol>
