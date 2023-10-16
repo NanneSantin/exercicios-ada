@@ -1,0 +1,84 @@
+@import url('./reset.css');
+
+body {
+    background-image: url('../images/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inscricao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    width: auto;
+    height: auto;
+    background-color: #ffe0ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.inscricao h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: #89004f;
+}
+
+label {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    margin-right: 10px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #c33b80;
+    font-weight: bold;
+}
+
+input {
+    height: 30px;
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    border: none;
+    background-color: #c33b80;
+    color: #FFFFFf;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+input::placeholder {
+    color: #FFFFFf;
+}
+
+input:focus {
+    outline-color: #ffe0ff;
+}
+
+select:focus {
+    outline-color: #ffe0ff;
+}
+
+select {
+    width: 250px;
+    height: 30px;
+    border: none;
+    color: #FFFFFf;
+    background-color: #c33b80;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #89004f;
+    font-weight: 400;
+    font-size: 1.0rem;
+    display: block;
+    margin: 10px auto 0;
+    color: #f0f0f0;
+    font-family: cursive;
+    text-transform: uppercase;
+}

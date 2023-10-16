@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajude a Causa - Inscrições</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="inscricao">
+            <h2>Se inscreva e ajude a causa</h2>
+            <hr>
+            <form class="reserva" action="http://localhost:3000/registro" method="post">
+                <br>
+                <div>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Nome Completo">
+                </div>
+                <br>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="email@email.com">
+                </div>
+                <br>
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade">
+                </div>
+                <br>
+                <div>
+                    <label for="tamCamisa">Tamanho da Camiseta:</label>
+                    <select name="tamCamisa" id="tamCamisa">
+                        <option value="P">P</option>
+                        <option value="M">M</option>
+                        <option value="G">G</option>
+                        <option value="GG">GG</option>
+                        <option value="XG">XG</option>
+                        <option value="XXG">XXG</option>
+                        <option value="XXXG">XXXG</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="categoria">Categoria:</label>
+                    <select name="categoria" id="categoria">
+                        <option value="3RUN">Corrida 3km</option>
+                        <option value="5RUN">Corrida 5km</option>
+                        <option value="4WALK">Caminhada 4km</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="valorDoado">Valor da Doação:</label>
+                    <input type="number" format="currency" precision="2" id="valorDoado" name="valorDoado">
+                </div>
+                <br>
+                <button type="submit">Inscrever-se</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
