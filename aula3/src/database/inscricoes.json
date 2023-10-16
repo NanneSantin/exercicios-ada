@@ -6,5 +6,13 @@
     "tamCamisa": "M",
     "categoria": "Corrida 3km [3RUN]",
     "valorDoado": 1500
+  },
+  {
+    "nome": "Luiz Felipe",
+    "idade": "33",
+    "email": "felipe@email.com",
+    "tamCamisa": "XXG",
+    "categoria": "5RUN",
+    "valorDoado": 5000
   }
 ]
