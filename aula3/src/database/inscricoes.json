@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "nome": "Elaine",
+    "idade": 30,
+    "email": "elaine@email.com",
+    "tamCamisa": "M",
+    "categoria": "Corrida 3km [3RUN]",
+    "valorDoado": 1500
+  }
+]
