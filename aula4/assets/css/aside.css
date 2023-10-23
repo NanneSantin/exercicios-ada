@@ -1,0 +1,61 @@
+.conteudo-lateral-direito {
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+    float: right;
+    border-left: 4px solid #FFFFFF;
+}
+
+.capas-albuns {
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #960000;
+}
+
+.lista-ranking {
+    padding: 20px;
+}
+
+.lista-ranking ol li {
+    margin-bottom: 10px;
+}
+
+.conteudo-lista-ranking {
+    padding-top: 20px;
+}
+
+.conteudo-lista-ranking figure {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+}
+
+.conteudo-lista-ranking figure img:hover {
+    transform: scale(1.1);
+}
+
+.legenda-capas {
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+.reproducoes {
+    font-weight: 700;
+    color: #EDEDED;
+}
+
+.musica {
+    font-size: larger;
+    font-weight: 700;
+    text-decoration: none;
+    color: #960000;
+}
+
+.ranking-musicas {
+    padding-left: 20px;
+    line-height: 2rem;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+}

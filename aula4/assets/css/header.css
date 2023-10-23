@@ -1,0 +1,89 @@
+.horizontal {
+    border-top: 4px solid #FFFFFF;
+}
+
+.cabecalho {
+    height: auto;
+    position: relative;
+}
+
+.cab-primeira-nav {
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+.cab-primeira-nav ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.cab-primeira-nav li {
+    display: inline-block;
+}
+
+.icones {
+    width: 30px;
+    height: auto;
+    margin: 2px 5px 0px 5px;
+}
+
+.icones-esquerdo {
+    margin-right: 50px;
+    text-align: center;
+}
+
+.icones-esquerdo li img {
+    margin-bottom: 40px;
+}
+
+.icones-direito {
+    margin-left: 430px;
+}
+
+.icones-direito li img {
+    margin-bottom: 30px;
+}
+
+#github {
+    width: 45px;
+}
+
+#linkedin {
+    width: 40px;
+}
+
+#logo {
+    width: 320px;
+    height: auto;
+    margin-left: 30%;
+}
+
+#capa {
+    height: 800px;
+    background-image: url('../images/capa.jpeg');
+    background-size: cover;
+}
+
+.cab-segunda-nav ul {
+    list-style: none;
+    margin-left: 58%;
+}
+
+.cab-segunda-nav ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.cab-segunda-nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+.cab-segunda-nav a:hover {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #960000;
+}

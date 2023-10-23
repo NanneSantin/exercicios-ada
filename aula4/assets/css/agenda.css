@@ -1,0 +1,33 @@
+#agenda {
+    margin: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+table {
+    padding: 30px;
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+
+th {
+    font-size: 1.6rem;
+}
+
+th,
+td {
+    width: 300px;
+    height: 80px;
+    line-height: 1.5rem;
+}
+
+table tr:nth-child(even),
+table th {
+    background-color: #960000;
+    color: #FFFFFF;
+}
+
+table tr:nth-child(odd) {
+    background-color: #ECECEC;
+    color: #000000;
+}

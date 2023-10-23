@@ -1,0 +1,36 @@
+#cadastro {
+    margin: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#cadastro h4 {
+    margin-top: 10px;
+}
+
+#email {
+    margin: 20px;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#submit {
+    background-color: #960000;
+    width: 100px;
+    height: 35px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 1.0rem;
+    border-radius: 20px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#label-autorizacao {
+    font-size: .8rem;
+}

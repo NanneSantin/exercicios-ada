@@ -1,0 +1,14 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./main.css');
+
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 99vw;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
