@@ -4,14 +4,13 @@ Este repositório contém todos os exercícios das aulas da trilha de front-end 
 
 ## Estrutura do Repositório
 
-- `aula1`: Exercícios da **primeira aula**.
-- `aula2`: Exercícios da **segunda aula**.
-- `aula3`: Exercícios da **terceira aula**.
-- `aula4`: Exercícios da **quarta aula**.
-- `aula5`: Exercícios da **quinta aula**.
-- `aula6`: Exercícios da **sexta aula**.
-- `aula7`: Exercícios da **sétima aula**.
-- `aula8`: Exercícios da **oitava aula**.
+- `modulo-1`: Exercícios do **Módulo 1 - Front-end Estático**.
+    - `aula1`
+    - `aula2`
+    - `aula3`
+    - `aula4`
+- `modulo-2`: Exercícios do **Módulo 2 - Lógica de Programação com JS**.
+
 
 ## Como Usar
 
@@ -19,7 +18,7 @@ Este repositório contém todos os exercícios das aulas da trilha de front-end 
 
 `git clone https://github.com/NanneSantin/exercicios-ada.git`
 
-2. Acesse o diretório da aula desejada.
+2. Acesse o diretório do módulo e aula desejada.
 
 3. Siga as recomendações especifícas que estará no readme do exercício.
 
