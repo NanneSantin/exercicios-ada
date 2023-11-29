@@ -11,20 +11,19 @@ class Pessoa {
     }
 
     calcularIdadeBissextos(ano) {
-        if ((ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0)) {
-            const dataAtual = new Date();
-            const anoNascimento = dataAtual.getFullYear() - this.idade;
+        const ehBissexto = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
+        const anoNascimento = new Date().getFullYear() - this.idade;
 
-            return ano - anoNascimento;
+        if (ehBissexto && new Date().getMonth() < 2) {
+            return ano - anoNascimento - 1;
         }
-
-        return 'Ano informado não é bissexto.'
+        return ano - anoNascimento;
     }
 }
 
 const elaine = new Pessoa('Elaine', 31, 'Curitiba');
 
-console.log(elaine.calcularIdadeBissextos(2024));
+console.log(elaine.calcularIdadeBissextos(2004));
 
 // !Antes de rodar o código abaixo, comentar as linhas 25 a 27.
 console.log(`
