@@ -44,9 +44,9 @@ const conversorMoeda = new ConversorDeMoeda(5.0); // Taxa de câmbio: 5.0
 const valorConvertido = conversorMoeda.converter(100, 'USD', 'BRL');
 console.log(`Valor convertido: ${valorConvertido} BRL`);
 // Saída esperada: Valor convertido: 500.0 BRL```
+````
 
-
-# Contador de Palavras em JavaScript
+# Exercício 3: Contador de Palavras em JavaScript
 
 Requisitos:
 
@@ -66,4 +66,4 @@ const contadorPalavras = new ContadorDePalavras('JavaScript é uma linguagem pod
 const contagem = contadorPalavras.contarPalavras();
 console.log(`Número de palavras: ${contagem}`);
 // Saída esperada: Número de palavras: 5```
-````
+```
