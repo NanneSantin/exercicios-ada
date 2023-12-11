@@ -26,7 +26,7 @@ class LoginSystem {
             throw new Error('Senha ou e-mail inválido!');
         }
 
-        return this.#users[indexEmail];
+        return true;
     }
 
     static createUser(name, email, password, address) {
@@ -42,9 +42,11 @@ class LoginSystem {
 
         const newClient = new Client(name, email, password, address);
 
-        this.#users.push(newClient.getClient());
+        this.#users.push(newClient.getCustomer());
 
-        console.log(`Usuário ${newClient.getClient().email} criado com sucesso!`);
+        console.log(`Usuário ${newClient.getCustomer().email} criado com sucesso!`);
+
+        return newClient;
     }
 }
 
