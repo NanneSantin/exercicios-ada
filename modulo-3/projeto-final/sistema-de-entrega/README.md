@@ -13,71 +13,49 @@
 
 1. Classe `Client`
 
-+---------------------+
-|       Cliente       |
-+---------------------+
-| - nome: string      |
-| - email: string     |
-| - senha: string     |
-| - endereço: string  |
-| - pedidos: Array    |
-+---------------------+
-| + obterCliente():   |
-|     Object          |
-| + obterInfosCliente(): |
-|     Object          |
-| + fazerPedido(      |
-|     restaurante: Restaurante, |
-|     pedido: Object): void     |
-| + verificarPedidos(): |
-|     Array           |
-+---------------------+
+| **Client** |
+|:-----------|
+| - name: string |
+| - email: string |
+| - password: string  |
+| - address: string   |
+| - orders: Array     |
+| + getCustomer(): Object |
+| + getInfosClient(): Object |
+| + makeOrder(restaurant: Restaurant,order: Object): void    |
+| + checkOrders(): Array |
+_________________
 
 2. Classe `LoginSystem`
 
-+----------------------+
-|    LoginSystem       |
-+----------------------+
-| - users: Array       |
-+----------------------+
-| + login(email: string, |
-|     password: string): boolean |
-| + createUser(name: string, |
-|     email: string, password: string, |
-|     address: string): Client |
-+----------------------+
+|  **LoginSystem**   |
+|:-------------------|
+| - users: Array     |
+| + login(email: string, password: string): boolean |
+| + createUser(name: string, email: string, password: string, address: string): Client |
+_________
 
 3. Classe `Order`
 
-+---------------------+
-|        Order        |
-+---------------------+
+|      **Order**      |
+|:--------------------|
 | - customer: Object  |
 | - restaurant: Restaurant |
 | - items: Object     |
 | - status: string    |
-+---------------------+
-| + amountOrder():    |
-|     Number          |
-| + updateStatus(status: string): |
-|     void            |
-+---------------------+
+| + amountOrder(): Number |
+| + updateStatus(status: string): void |
+_____________
 
 4. Classe `Restaurant`
 
-+---------------------+
 |     Restaurant      |
-+---------------------+
+|:--------------------|
 | - name: string      |
 | - menu: Object      |
 | - orders: Array     |
-+---------------------+
-| + getMenu(): Array  |
-|     Object          |
-| + receiveOrder(     |
-|     customer: Object, |
-|     order: Object): void |
-+---------------------+
+| + getMenu(): Array <Object> |
+| + receiveOrder(customer: Object, order: Object): void |
 
 ## Exemplo de Uso:
 
