@@ -1,5 +1,7 @@
 # Tema do Exercício: Sistema de Entrega (Delivery) usando Programação Orientada a Objetos em JavaScript
 
+Aluna Elaine Stefani Santin
+
 ## Requisitos:
 
 1. Criar um sistema simples de entrega (delivery) que consistirá em clientes, restaurantes e pedidos.
