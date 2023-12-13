@@ -10,4 +10,3 @@ Elaine Stefani Santin <br>
 ## Diretórios
 
 1. **sistema-de-entrega**: Entrega do desafio opção 1.
-2. **lista**: Entrega da lista de exercício. 
