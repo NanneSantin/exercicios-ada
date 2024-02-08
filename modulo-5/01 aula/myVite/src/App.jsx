@@ -22,7 +22,7 @@ function App() {
     bodyStyle.backgroundColor = getRandomLightColor();
   }
   return (
-    <div style={{ width: '100%', height: '100%' }} onClick={handleClickOutside}>
+    <div style={{ width: '100vw', height: '100vh' }} onClick={handleClickOutside}>
       <h1>Contador de Cliques: {clicks}</h1>
       <ColorSwitch onChangeColor={handleChangeColor} />
     </div>

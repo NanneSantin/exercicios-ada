@@ -1,7 +1,7 @@
 const ColorSwitch = ({ onChangeColor }) => {
 
     function handleClick(e) {
-        e.stopPropagation();
+        e.stopPropagation(); //não deixa renderizar a tela, ou seja, ele executação sua ação sem renderizar a tela
         onChangeColor()
     }
 
