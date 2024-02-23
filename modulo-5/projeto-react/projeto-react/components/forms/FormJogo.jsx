@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const FormJogo = () => {
     const [imagem, setImagem] = useState('');
