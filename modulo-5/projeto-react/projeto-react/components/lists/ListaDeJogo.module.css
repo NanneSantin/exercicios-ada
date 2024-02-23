@@ -1,0 +1,7 @@
+.lista_de_jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 30px;
+}

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import styles from './FormJogo.module.css'
 
 const FormJogo = () => {
     const [imagem, setImagem] = useState('');

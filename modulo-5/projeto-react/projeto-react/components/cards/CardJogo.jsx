@@ -1,3 +1,5 @@
+import styles from './CardJogo.module.css'
+
 const CardJogo = ({ titulo, linkImg }) => {
     return (
         <div className={styles.estilo_card}>

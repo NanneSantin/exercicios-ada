@@ -1,4 +1,5 @@
-import Logo from './Logo';
+import Logo from '../logo/Logo';
+import styles from './Header.module.css'
 
 const Header = ({ toggleFormulario }) => {
     return (

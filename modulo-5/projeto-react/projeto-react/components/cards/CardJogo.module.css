@@ -1,0 +1,26 @@
+.estilo_card {
+    background-color: #fff;
+    width: 300px;
+    height: 280px;
+    border-radius: 4px;
+    margin-bottom: 95px;
+}
+
+.estilo_card h3 {
+    font-size: 23px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 60px;
+}
+
+.container_img {
+    width: 300px;
+    height: 280px;
+}
+
+.container_img .estilo_img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}

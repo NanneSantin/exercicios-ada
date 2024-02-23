@@ -1,5 +1,6 @@
 import CardJogo from '../cards/CardJogo';
 import jogos from '../../database/jogos';
+import styles from './ListaDeJogo.module.css'
 
 const ListaDeJogos = () => {
     return (
