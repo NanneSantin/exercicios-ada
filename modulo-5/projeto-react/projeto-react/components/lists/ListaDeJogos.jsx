@@ -1,4 +1,5 @@
 import CardJogo from '../cards/CardJogo';
+import jogos from '../../database/jogos';
 
 const ListaDeJogos = () => {
     return (
