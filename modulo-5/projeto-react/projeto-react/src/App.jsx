@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import Header from '../components/header/Header';
 import FormJogo from '../components/forms/FormJogo';
-import ListaDeJogos from '../components/lists/ListaDeJogos';
+// import ListaDeJogos from '../components/lists/ListaDeJogos';
+import { Outlet } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
       <Header toggleFormulario={toggleFormulario} />
       <main>
         {exibirFormulario && <FormJogo />}
-        <ListaDeJogos />
+        {/* <ListaDeJogos /> */}
+        <Outlet />
       </main>
     </div>
   );

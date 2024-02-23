@@ -1,0 +1,32 @@
+.estilo_erro {
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #014c9d;
+    line-height: 2;
+    text-align: center;
+}
+
+.estilo_h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.estilo_p,
+.estilo_i {
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.estilo_div {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #014c9d;
+}
+
+.estilo_img {
+    height: 350px;
+}

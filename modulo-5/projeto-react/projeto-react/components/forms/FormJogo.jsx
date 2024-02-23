@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import styles from './FormJogo.module.css'
+import styles from './FormJogo.module.css';
+import jogos from '../../database/jogos';
+
 
 const FormJogo = () => {
     const [imagem, setImagem] = useState('');
@@ -17,10 +19,8 @@ const FormJogo = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        console.log({
-            imagem,
-            titulo,
-        });
+        jogos.push({ titulo, imagem });
+        console.log(jogos);
 
         setImagem('');
         setTitulo('');
